@@ -1,3 +1,10 @@
+import { BowlControls, BowlRender } from "../components/index"
+
 export default function Home() {
-  return <main>Hi</main>
+  return (
+    <main>
+      <BowlRender />
+      <BowlControls />
+    </main>
+  )
 }

@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 
 function Navbar() {
   return (
@@ -10,15 +11,18 @@ function Navbar() {
       </ul>
       <ul>
         <li>
-          <a href="#">Link</a>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="#">Link</a>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <a href="#" role="button">
-            Button
-          </a>
+          <Link href="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link href="/bowlerator" role="button">
+            Demo Now
+          </Link>
         </li>
       </ul>
     </nav>
