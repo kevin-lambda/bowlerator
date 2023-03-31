@@ -1,9 +1,13 @@
 "use client"
 
 import React, { useState } from "react"
+import Image from "next/image"
+import picBowl from "../../assets/bowl.jpg"
+
 const { ingredients } = require("../../data/index.ts")
 const { proteins, carbs, veggies, sauces } = ingredients
 
+//get the data here
 function BowlControls() {
   const [bowl, setBowl] = useState({})
   const [count, setCount] = useState(0)
@@ -33,32 +37,46 @@ function BowlControls() {
   }
 
   return (
-    <>
+    <section>
       <div>
         BowlControls
         {Object.keys(bowl).length === 0 ? (
           <div>no bowl</div>
         ) : (
-          <ul>
-            <li>protein: {bowl.protein.name}</li>
-            <li>carb: {bowl.carb.name}</li>
-            <li>veggie: {bowl.veggie.name} </li>
-            <li>sauce: {bowl.sauce.name}</li>
-          </ul>
+          <section>
+            <div className="grid">
+              <div>
+                <Image
+                  src={picBowl}
+                  width={400}
+                  height={400}
+                  alt="placeholder"
+                />
+              </div>
+              <div>
+                <ul>
+                  <h3>ingredients</h3>
+                  <li>protein: {bowl.protein.name}</li>
+                  <li>carb: {bowl.carb.name}</li>
+                  <li>veggie: {bowl.veggie.name} </li>
+                  <li>sauce: {bowl.sauce.name}</li>
+                </ul>
+              </div>
+            </div>
+          </section>
         )}
       </div>
-      <div>
-        <p>You clicked {count} times</p>
+      <section>
         <button
           onClick={() => {
             setCount(count + 1)
             generateRandomBowl(proteins, carbs, veggies, sauces)
           }}
         >
-          Click me
+          Generate
         </button>
-      </div>
-    </>
+      </section>
+    </section>
   )
 }
 

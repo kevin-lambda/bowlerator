@@ -1,4 +1,5 @@
 - layout comes with {children} prop, which IS a child layout if it exists, or a page
+- **get data at the parent level** then pass down to components. should not try to get data at lower levels. harder to pass data UP
 
 ## typescript
 

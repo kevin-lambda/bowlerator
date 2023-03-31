@@ -1,8 +1,9 @@
+"use client"
+
 import React from "react"
 
-// receive each individual ingredient to render
-function BowlRender() {
-  return <div>bowl render</div>
+function BowlRender(props: any) {
+  return <section>bowl render</section>
 }
 
 export default BowlRender
