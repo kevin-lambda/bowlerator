@@ -30,7 +30,6 @@ function BowlControls() {
 
     const bowl = { protein, carb, veggie, sauce }
     setBowl(bowl)
-    console.log("=========", bowl)
   }
 
   return (
