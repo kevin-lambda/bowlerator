@@ -50,8 +50,6 @@ baseSauces.forEach((e) => {
   e.push("sauce")
 })
 
-console.log("=============", baseSauces)
-
 function makeIngredient(name: string, cuisine: string, type: string) {
   return {
     name,
@@ -60,8 +58,24 @@ function makeIngredient(name: string, cuisine: string, type: string) {
   }
 }
 
-// const objectsProteins = typeProteins.map((element) => {
-//   return makeIngredient(element[0], element[1], element[2])
-// })
+const proteins = baseProteins.map((element) => {
+  return makeIngredient(element[0], element[1], element[2])
+})
+const carbs = baseCarbs.map((element) => {
+  return makeIngredient(element[0], element[1], element[2])
+})
+const veggies = baseVeggies.map((element) => {
+  return makeIngredient(element[0], element[1], element[2])
+})
+const sauces = baseSauces.map((element) => {
+  return makeIngredient(element[0], element[1], element[2])
+})
 
-module.exports = baseProteins
+const ingredientsData = {
+  proteins,
+  carbs,
+  veggies,
+  sauces,
+}
+
+module.exports = ingredientsData

@@ -1,7 +1,8 @@
 import React from "react"
 
+// receive each individual ingredient to render
 function BowlRender() {
-  return <div>BowlRender</div>
+  return <div>bowl render</div>
 }
 
 export default BowlRender

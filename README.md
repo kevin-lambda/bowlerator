@@ -1,5 +1,33 @@
 - layout comes with {children} prop, which IS a child layout if it exists, or a page
 
+## typescript
+
+- declare an object
+
+```
+type Person = { name: string, age: number };
+
+const people: Person[] = [
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 25 },
+  { name: "Charlie", age: 40 }
+];
+
+```
+
+- declare an array of objects
+
+```
+const people: { name: string, age: number }[] = [
+  { name: "Alice", age: 30 },
+  { name: "Bob", age: 25 },
+  { name: "Charlie", age: 40 }
+];
+```
+
+- to take the easy way out give an declaration of `any`
+  `const obj: any = {}`
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
