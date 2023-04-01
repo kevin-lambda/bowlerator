@@ -39,9 +39,8 @@ function BowlControls() {
   return (
     <section>
       <div>
-        BowlControls
         {Object.keys(bowl).length === 0 ? (
-          <div>no bowl</div>
+          <div>{null}</div>
         ) : (
           <section>
             <div className="grid">

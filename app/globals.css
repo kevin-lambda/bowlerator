@@ -1,4 +1,46 @@
 section {
   border: 1px solid black;
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(175, 175, 175);
+}
+/* this is how to do hero banner images in a section!*/
+.hero {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-image: url("../assets/hero.jpg");
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-position: center; /* Center the image */
+  height: 55vh;
+}
+body {
+  /* margin: 0; */
+}
+
+#nav-button {
+  /* margin-right: 1rem; */
+}
+
+.the-navbar {
+  width: 98%;
+}
+
+/* .nav-links > li > a {
+  color: black;
+} */
+
+.the-footer {
+  background-color: rgb(201, 201, 201);
+}
+
+.footer-container {
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.footer-container > ul {
+  margin-bottom: 0.25rem;
+}
+
+.footer-container > ul > li {
+  /* border: 1px solid black; */
+  list-style: none;
+  padding: 0;
+  display: inline-block;
 }

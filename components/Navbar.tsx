@@ -1,15 +1,17 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
+import logo from "../assets/Bowlerator-logos_black-crop.png"
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="the-navbar">
       <ul>
         <li>
-          <strong>Brand</strong>
+          <Image src={logo} alt="logo" width={129} />
         </li>
       </ul>
-      <ul>
+      <ul className="nav-links">
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -20,7 +22,7 @@ function Navbar() {
           <Link href="/contact">Contact</Link>
         </li>
         <li>
-          <Link href="/bowlerator" role="button">
+          <Link href="/bowlerator" role="button" id="nav-button">
             Demo Now
           </Link>
         </li>
