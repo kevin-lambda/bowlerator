@@ -8,7 +8,7 @@ section {
   background-image: url("../assets/hero.jpg");
   background-size: cover; /* Resize the background image to cover the entire container */
   background-position: center; /* Center the image */
-  height: 55vh;
+  height: 65vh;
 }
 body {
   /* margin: 0; */
