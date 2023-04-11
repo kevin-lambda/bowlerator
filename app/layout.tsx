@@ -1,5 +1,7 @@
 import "./globals.css"
 import "@picocss/pico/css/pico.min.css"
+import "bulma/css/bulma.min.css"
+
 // this is how you use... any? css in react.
 import { Navbar, Footer } from "../components/index"
 

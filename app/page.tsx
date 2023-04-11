@@ -16,72 +16,76 @@ export default function Home() {
     <main>
       <section className="hero">
         <hgroup className="hero-heading">
-          <h3>The Best Bowls. Anytime.</h3>
-          <h6>Tasty meals ideas faster than ever.</h6>
+          <h3 className="is-size-2">The Best Bowls. Anytime.</h3>
+          <h6 className="is-size-4">Tasty meals ideas faster than ever.</h6>
           <Link href="/bowlerator" role="button" className="hero-cta-button">
             Try It Out
           </Link>
         </hgroup>
       </section>
-      <section className="container">
+      <section className="container pb-6">
         <div className="grid">
           <div>
             <Image src={about} width={400} height={400} alt="placeholder" />
           </div>
           <div>
-            we do this stuff all about that and give and for and provide that
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <h4>Custom bowls, just for you</h4>
-        <div className="grid">
-          <div>
-            <FontAwesomeIcon icon={faBowlFood} />
+            <h4>All in one place</h4>
             <div>
-              bowl generatoro a fo fo foawek nfewo;a nfwae o fwenlwfe newf ln
-              wfealsdn lsd fds d
-            </div>
-          </div>
-          <div>
-            <FontAwesomeIcon icon={faGaugeHigh} />
-            <div>
-              preference adjustment a fo fo foawek nfewo;a nfwae o fwenlwfe newf
-              ln wfealsdn lsd fds d
-            </div>
-          </div>
-          <div>
-            <FontAwesomeIcon icon={faChartPie} />
-            <div>
-              ingredient ratios a fo fo foawek nfewo;a nfwae o fwenlwfe newf ln
-              wfealsdn lsd fds d
+              We create fresh bowl ideas for your busy day. Using our ingredient
+              synergizer, we find ingredients that work best for your daily
+              routine.
             </div>
           </div>
         </div>
       </section>
-      <section className="container">
+      <section className="section has-background-info-light">
+        <h4 className="is-size-3 has-text-centered pb-5">
+          Custom bowls, just for you
+        </h4>
+        <div className="columns is-centered ">
+          <div className="column is-one-third has-text-centered">
+            <div className="icon1">
+              <FontAwesomeIcon icon={faBowlFood} />
+            </div>
+
+            <div>instant bowl ideas</div>
+          </div>
+          <div className="column is-one-third has-text-centered">
+            <div className="icon1">
+              <FontAwesomeIcon icon={faGaugeHigh} />
+            </div>
+            <div>favorite ingredient selection</div>
+          </div>
+          <div className="column is-one-third has-text-centered">
+            <div className="icon1">
+              <FontAwesomeIcon icon={faChartPie} />
+            </div>
+            <div>Customized ingredient ratios</div>
+          </div>
+        </div>
+      </section>
+      <section className="section">
         <div className="grid">
           <div>
             <Image src={bowl1} width={400} height={400} alt="placeholder" />
           </div>
           <div>
-            we do this stuff all about that and give and for and provide that
+            Our bowls are guaranteed to be fresh and creative. With a nearly
+            endless combination of creations.
           </div>
         </div>
       </section>
-      <section className="container">
+      <section className="section">
         <div className="grid">
-          <div>
-            we do this stuff all about that and give and for and provide that
-          </div>
+          <div>Many have tried and now use it everyday.</div>
           <div>
             <Image src={bowl2} width={400} height={400} alt="placeholder" />
           </div>
         </div>
       </section>
-      <section className="container">
-        <h3>join us</h3>
-        <p>text her ewalrjwel jif jweaofiawe we ew we few sew</p>
+      <section className="section has-background-info-light">
+        <h3 className="is-size-2 has-text-centered">Join us!</h3>
+        <p className="is-size-6 has-text-centered">Make a bowl today</p>
         <button>make a bowl</button>
       </section>
     </main>
