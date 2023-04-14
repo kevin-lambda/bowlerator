@@ -54,7 +54,9 @@ function BowlControls() {
               </div>
               <div>
                 <ul className="get-li">
-                  <h3 className="is-size-3 pb-3">Your bowl is waiting</h3>
+                  <h3 className="is-size-3 pb-3">
+                    Your bowl is waiting, click below to make a bowl now
+                  </h3>
                 </ul>
               </div>
             </div>
