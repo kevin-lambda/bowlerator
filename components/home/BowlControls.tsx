@@ -40,9 +40,7 @@ function BowlControls() {
     <section>
       <div>
         {Object.keys(bowl).length === 0 ? (
-          <div>{null}</div>
-        ) : (
-          <section>
+          <section className="section pt-5">
             <div className="grid">
               <div>
                 <Image
@@ -53,12 +51,30 @@ function BowlControls() {
                 />
               </div>
               <div>
-                <ul>
-                  <h3>ingredients</h3>
-                  <li>protein: {bowl.protein.name}</li>
-                  <li>carb: {bowl.carb.name}</li>
-                  <li>veggie: {bowl.veggie.name} </li>
-                  <li>sauce: {bowl.sauce.name}</li>
+                <ul className="get-li">
+                  <h3 className="is-size-3 pb-3">Your bowl is waiting</h3>
+                </ul>
+              </div>
+            </div>
+          </section>
+        ) : (
+          <section className="section pt-5">
+            <div className="grid">
+              <div>
+                <Image
+                  src={picBowl}
+                  width={400}
+                  height={400}
+                  alt="placeholder"
+                />
+              </div>
+              <div>
+                <ul className="get-li">
+                  <h3 className="is-size-3 pb-3">Ingredients</h3>
+                  <li>Protein: {bowl.protein.name}</li>
+                  <li>Carb: {bowl.carb.name}</li>
+                  <li>Veggie: {bowl.veggie.name} </li>
+                  <li>Sauce: {bowl.sauce.name}</li>
                 </ul>
               </div>
             </div>
@@ -67,12 +83,13 @@ function BowlControls() {
       </div>
       <section>
         <button
+          className="cta-bottom2"
           onClick={() => {
             setCount(count + 1)
             generateRandomBowl(proteins, carbs, veggies, sauces)
           }}
         >
-          Generate
+          Make a Bowl!
         </button>
       </section>
     </section>

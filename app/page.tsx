@@ -29,64 +29,85 @@ export default function Home() {
             <Image src={about} width={400} height={400} alt="placeholder" />
           </div>
           <div>
-            <h4>All in one place</h4>
+            <h4 className="is-size-3 pb-3">All in one place</h4>
             <div>
-              We create fresh bowl ideas for your busy day. Using our ingredient
-              synergizer, we find ingredients that work best for your daily
-              routine.
+              Experience the convenience and deliciousness of our bowl ideas,
+              powered by our cutting-edge ingredient synergizer. With carefully
+              selected ingredients that work in harmony with your daily routine,
+              you can enjoy wholesome and satisfying meals without the hassle of
+              planning or prepping
             </div>
           </div>
         </div>
       </section>
       <section className="section has-background-info-light">
-        <h4 className="is-size-3 has-text-centered pb-5">
+        <h4 className="is-size-3 has-text-centered pb-6">
           Custom bowls, just for you
         </h4>
         <div className="columns is-centered ">
           <div className="column is-one-third has-text-centered">
             <div className="icon1">
-              <FontAwesomeIcon icon={faBowlFood} />
+              <FontAwesomeIcon icon={faBowlFood} className="pb-3" />
             </div>
 
-            <div>instant bowl ideas</div>
+            <div className="is-size-5">Instant bowl ideas</div>
           </div>
           <div className="column is-one-third has-text-centered">
             <div className="icon1">
-              <FontAwesomeIcon icon={faGaugeHigh} />
+              <FontAwesomeIcon icon={faGaugeHigh} className="pb-3" />
             </div>
-            <div>favorite ingredient selection</div>
+            <div className="is-size-5">Favorite ingredient selection</div>
           </div>
           <div className="column is-one-third has-text-centered">
             <div className="icon1">
-              <FontAwesomeIcon icon={faChartPie} />
+              <FontAwesomeIcon
+                icon={faChartPie}
+                width="110%"
+                className="pb-3"
+              />
             </div>
-            <div>Customized ingredient ratios</div>
+            <div className="is-size-5">Customized ingredient ratios</div>
           </div>
         </div>
       </section>
-      <section className="section">
+      <section className="section pt-1 pb-1">
         <div className="grid">
+          <div>
+            <h4 className="is-size-3 pb-3">Endless Combinations</h4>
+            <div>
+              Fuel your body with the best ingredients for meal bowls -
+              carefully selected for their taste, quality, and nutritional
+              value, our ingredients are the building blocks of flavorful and
+              balanced meal bowl ideas.
+            </div>
+          </div>
           <div>
             <Image src={bowl1} width={400} height={400} alt="placeholder" />
           </div>
-          <div>
-            Our bowls are guaranteed to be fresh and creative. With a nearly
-            endless combination of creations.
-          </div>
         </div>
       </section>
-      <section className="section">
+      <section className="section  pt-1 pb-1">
         <div className="grid">
-          <div>Many have tried and now use it everyday.</div>
           <div>
             <Image src={bowl2} width={400} height={400} alt="placeholder" />
           </div>
+          <div>
+            <h4 className="is-size-3 pb-3">Perfect for Prep</h4>
+            <div>
+              Elevate your meal prep game with our versatile ingredients -
+              perfect for storing, prepping, and serving your favorite meals
+            </div>
+          </div>
         </div>
       </section>
-      <section className="section has-background-info-light">
-        <h3 className="is-size-2 has-text-centered">Join us!</h3>
-        <p className="is-size-6 has-text-centered">Make a bowl today</p>
-        <button>make a bowl</button>
+      <section className="has-background-info-light px-6 pb-6 mb-0">
+        <h3 className="is-size-2 has-text-centered pt-5 pb-3">Try it out!</h3>
+        <Link href="/bowlerator">
+          <button className="button cta-bottom is-normal is-info">
+            Make a bowl now
+          </button>
+        </Link>
+        {/* <button className="button is-primary">Make a bowl now</button> */}
       </section>
     </main>
   )

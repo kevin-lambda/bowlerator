@@ -8,7 +8,9 @@ function Navbar() {
     <nav className="the-navbar">
       <ul>
         <li>
-          <Image src={logo} alt="logo" width={129} />
+          <Link href="/">
+            <Image src={logo} alt="logo" width={129} />
+          </Link>
         </li>
       </ul>
       <ul className="nav-links">

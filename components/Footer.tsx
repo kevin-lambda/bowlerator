@@ -1,14 +1,9 @@
 import React from "react"
 import Image from "next/image"
 import logo from "../assets/Bowlerator-logos_black-crop.png"
+import Link from "next/link"
 
 function Footer() {
-  // a little index of stuff
-  // About the project
-  // actions
-  // links to other stuff
-  // copy right
-
   return (
     <footer className="the-footer">
       <div className="container footer-container">
@@ -21,7 +16,9 @@ function Footer() {
             easy meals!
           </li>
         </ul>
-        <ul>Image credits ...</ul>
+        <ul>
+          <Link href="/credits">Image credits</Link>
+        </ul>
         <ul>
           <li>
             Made by <a href="https://github.com/kevin-lambda">Kevin L</a>

@@ -10,18 +10,6 @@
 
 then set the container size
 
-photo credits
-
-Photo by <a href="https://unsplash.com/@elizabethlee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chaewon Lee</a> on <a href="https://unsplash.com/photos/sBOl-XPYv9M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@yoavaziz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Yoav Aziz</a> on <a href="https://unsplash.com/photos/AiHJiRCwB3w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@monstruoestudio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Monstruo Estudio</a> on <a href="https://unsplash.com/photos/lQy6mHZ7fYk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@iemanuel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">I E</a> on <a href="https://unsplash.com/photos/KRGFXJWIo2Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/ko/@icons8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Icons8 Team</a> on <a href="https://unsplash.com/photos/seDjj4dmC9s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
 ## typescript
 
 - declare an object
