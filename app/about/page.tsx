@@ -35,6 +35,9 @@ export default function About() {
 
       <section className="banner-color2  px-6 mb-0">
         <h3 className="is-size-2 has-text-centered pt-5 pb-3">Try it out!</h3>
+        <div className="is-size-5 has-text-centered pt-1 pb-6">
+          Experience the fresh ingredients and ideas
+        </div>
         <Link href="/bowlerator">
           <button className="button cta-bottom is-normal is-info">
             Get a Bowl
