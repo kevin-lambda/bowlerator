@@ -104,7 +104,7 @@ export default function Home() {
         <h3 className="is-size-2 has-text-centered pt-5 pb-3">Try it out!</h3>
         <Link href="/bowlerator">
           <button className="button cta-bottom is-normal is-info">
-            Make a bowl now
+            Get a Bowl
           </button>
         </Link>
         {/* <button className="button is-primary">Make a bowl now</button> */}

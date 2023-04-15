@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li>
           <Link href="/bowlerator" role="button" id="nav-button">
-            Demo Now
+            Demo
           </Link>
         </li>
       </ul>
