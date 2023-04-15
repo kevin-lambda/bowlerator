@@ -40,7 +40,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="section has-background-info-light">
+      <section className="section banner-color">
         <h4 className="is-size-3 has-text-centered pb-6">
           Custom bowls, just for you
         </h4>
@@ -100,7 +100,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="has-background-info-light px-6 pb-6 mb-0">
+      <section className="banner-color2 px-6 mb-0">
         <h3 className="is-size-2 has-text-centered pt-5 pb-3">Try it out!</h3>
         <Link href="/bowlerator">
           <button className="button cta-bottom is-normal is-info">

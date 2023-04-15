@@ -32,7 +32,7 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="px-6 pb-6 mb-0">
+      <section className="pb-6 px-6 mb-0">
         <button className="button cta-bottom is-normal is-info">
           Email us
         </button>
