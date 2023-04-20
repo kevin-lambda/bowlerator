@@ -51,14 +51,14 @@ export default function Home() {
         <div className="columns is-centered ">
           <div className="column is-one-third has-text-centered">
             <div className="icon1">
-              <FontAwesomeIcon icon={faBowlFood} className="pb-3" />
+              <FontAwesomeIcon icon={faBowlFood} className="pb-3" size="5x" />
             </div>
 
             <div className="is-size-5">Instant bowl ideas</div>
           </div>
           <div className="column is-one-third has-text-centered">
             <div className="icon1">
-              <FontAwesomeIcon icon={faGaugeHigh} className="pb-3" />
+              <FontAwesomeIcon icon={faGaugeHigh} className="pb-3" size="5x" />
             </div>
             <div className="is-size-5">Favorite ingredient selection</div>
           </div>
@@ -66,7 +66,8 @@ export default function Home() {
             <div className="icon1">
               <FontAwesomeIcon
                 icon={faChartPie}
-                width="110%"
+                size="5x"
+                // width="110%"
                 className="pb-3"
               />
             </div>
