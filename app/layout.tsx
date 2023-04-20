@@ -1,3 +1,5 @@
+"use-client"
+
 import "./globals.css"
 import "@picocss/pico/css/pico.min.css"
 import "bulma/css/bulma.min.css"
