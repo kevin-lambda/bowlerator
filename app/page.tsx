@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import hero from "../assets/hero.jpg"
 import about from "../assets/about.jpg"
@@ -10,8 +12,10 @@ import {
   faChartPie,
 } from "@fortawesome/free-solid-svg-icons"
 import Link from "next/link"
-
+import { useCronitor } from "@cronitorio/cronitor-rum-nextjs"
 export default function Home() {
+  useCronitor("8ab20f019d3ec66a9196a1919d34cfa7")
+
   return (
     <main>
       <section className="hero">
