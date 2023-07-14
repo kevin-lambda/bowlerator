@@ -2,8 +2,6 @@
 
 A bowl idea creator, demonstrating nextjs 13 and applying standard modern website design.
 
-Live site here: [https://this-belongs-to.onrender.com/](https://this-belongs-to.onrender.com/)
-
 ## About
 
 This project is an exploration of nextjs 13 which uses directory based routing with static and dynamic rendering methods. Another focus was to emulate modern website design for a typical small business, as detailed in this [medium article](https://kevin-lambda.medium.com/jr-dev-asks-whats-a-basic-website-layout-to-use-for-a-business-35ff4a7ef700).
