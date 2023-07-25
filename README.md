@@ -1,4 +1,4 @@
-# This Page Belongs To
+# Bowlerator
 
 A bowl idea creator, demonstrating nextjs 13 and applying standard modern website design.
 
